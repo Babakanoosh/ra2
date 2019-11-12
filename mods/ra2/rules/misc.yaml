@@ -64,6 +64,8 @@ amcv.colorpicker:
 	RenderVoxels:
 		Image: amcv
 		Palette: colorpicker
+	Repairable:
+    	RepairActors:
 
 SROCK01:
 	Inherits: ^Rock

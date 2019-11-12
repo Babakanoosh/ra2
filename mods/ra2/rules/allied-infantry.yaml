@@ -38,7 +38,8 @@ engineer:
 	WithInfantryBody:
 		DefaultAttackSequence: stand
 	CaptureManager:
-
+	-Repairable:
+    
 dog:
 	Inherits: ^Infantry
 	Buildable:
@@ -100,7 +101,8 @@ dog:
 			PsychicDeath: 1
 			ElectroDeath: 2
 	-WithDeathAnimation@effect:
-
+	-Repairable:
+    
 e1:
 	Inherits@1: ^Infantry
 	Inherits@2: ^Parachutable
@@ -194,7 +196,8 @@ e1:
 	WithInfantryBody@Editor:
 		DefaultAttackSequence: shoot
 		RequiresCondition: !editorhack
-
+	-Repairable:
+    
 snipe:
 	Inherits: ^Infantry
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -236,7 +239,8 @@ snipe:
 		Prerequisites: barracks.infiltrated
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
-
+	-Repairable:
+    
 spy:
 	Inherits: ^Infantry
 	Buildable:
@@ -287,7 +291,8 @@ spy:
 		Voice: Action
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	-Repairable:
+    
 ghost:
 	Inherits: ^Infantry
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -341,7 +346,8 @@ ghost:
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
 	-TakeCover: # TODO: needs to be conditional so we can disable in water
-
+	-Repairable:
+    
 ccomand:
 	Inherits: ghost
 	Buildable:
@@ -480,7 +486,8 @@ tany:
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
 	-TakeCover: # TODO: needs to be conditional so we can disable in water
-
+	-Repairable:
+    
 jumpjet:
 	Inherits: ^Infantry
 	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
@@ -562,7 +569,8 @@ jumpjet:
 		Voice: Move
 	Rearmable:
 		RearmActors:
-
+	-Repairable:
+    
 jumpjet.husk:
 	Inherits: ^HelicopterHusk
 	Inherits@1: ^SpriteActor
@@ -625,3 +633,5 @@ cleg:
 		Voice: Attack
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
+	-Repairable:
+    

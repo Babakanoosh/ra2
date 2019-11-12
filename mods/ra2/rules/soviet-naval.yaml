@@ -37,7 +37,9 @@ sapc:
 	WithVoxelBody:
 	RenderSprites:
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 sub:
 	Inherits: ^Ship
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -106,7 +108,9 @@ sub:
 		TargetTypes: Underwater, Repair
 		RequiresCondition: underwater
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 hyd:
 	Inherits: ^Ship
 	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
@@ -145,7 +149,9 @@ hyd:
 	WithVoxelBody:
 	RenderSprites:
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 sqd:
 	Inherits@1: ^ExistsInWorld
 	Inherits@2: ^SpriteActor
@@ -224,3 +230,6 @@ sqd:
 	HitShape:
 	OwnerLostAction:
 		Action: Kill
+	Repairable:
+    	RepairActors:
+    

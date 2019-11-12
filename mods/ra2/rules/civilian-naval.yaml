@@ -22,7 +22,9 @@ tug:
 	WithVoxelBody:
 	-Voiced:
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 cruise:
 	Inherits: ^Ship
 	Inherits@MC: ^MindControllable
@@ -45,7 +47,9 @@ cruise:
 	WithVoxelBody:
 	-Voiced:
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 cdest:
 	Inherits: dest
 	-Buildable:
@@ -54,3 +58,4 @@ cdest:
 	Armor:
 		Type: Light
 	-Voiced:
+    

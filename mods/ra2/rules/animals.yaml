@@ -15,7 +15,9 @@ cow:
 	-AttackFrontal:
 	WithInfantryBody:
 		-DefaultAttackSequence:
-
+	Repairable:
+    	RepairActors:
+    
 all:
 	Inherits: ^Animal
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -25,7 +27,9 @@ all:
 		VoiceSet: AlligatorVoice
 	Armament:
 		Weapon: AlligatorBite
-
+	Repairable:
+    	RepairActors:
+    
 polarb:
 	Inherits: ^Animal
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -35,7 +39,9 @@ polarb:
 		VoiceSet: BearVoice
 	Armament:
 		Weapon: BearBite
-
+	Repairable:
+    	RepairActors:
+    
 josh:
 	Inherits: ^Animal
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -56,3 +62,5 @@ josh:
 	SpawnActorOnDeath@flames:
 		Actor: FLAMEGUY
 		DeathType: FlameDeath
+	Repairable:
+    	RepairActors:

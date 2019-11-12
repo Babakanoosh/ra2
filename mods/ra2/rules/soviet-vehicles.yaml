@@ -39,7 +39,9 @@ smcv:
 	Voiced:
 		VoiceSet: SovietVehicleVoice
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 harv:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -97,7 +99,9 @@ harv:
 	Voiced:
 		VoiceSet: SovietVehicleVoice
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 dron:
 	Inherits: ^Vehicle
 	Valued:
@@ -139,7 +143,9 @@ dron:
 	Voiced:
 		VoiceSet: TerrorDroneVoice
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 htk:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
@@ -193,7 +199,9 @@ htk:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 htnk:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -243,7 +251,9 @@ htnk:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 apoc:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
@@ -298,7 +308,9 @@ apoc:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 ttnk:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -345,7 +357,9 @@ ttnk:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	Repairable:
+    	RepairActors:
+    
 dtruck:
 	Inherits: ^Vehicle
 	Inherits@MC: ^MindControllable
@@ -394,3 +408,6 @@ dtruck:
 	Voiced:
 		VoiceSet: DemolitionTruckVoice
 	HitShape:
+	Repairable:
+    	RepairActors:
+    

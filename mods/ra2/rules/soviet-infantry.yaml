@@ -40,7 +40,9 @@ e2:
 		Prerequisites: barracks.infiltrated
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	Repairable:
+    	RepairActors:
+    
 flakt:
 	Inherits@1: ^Infantry
 	Inherits@2: ^Parachutable
@@ -93,7 +95,9 @@ flakt:
 		Prerequisites: barracks.infiltrated
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	Repairable:
+    	RepairActors:
+    
 shk:
 	Inherits@1: ^Infantry
 	Inherits@2: ^Parachutable
@@ -154,7 +158,9 @@ shk:
 		Prerequisites: barracks.infiltrated
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	Repairable:
+    	RepairActors:
+    
 terror:
 	Inherits: ^Infantry
 	Inherits@MC: ^MindControllable
@@ -206,7 +212,9 @@ terror:
 	-TakeCover:
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	Repairable:
+    	RepairActors:
+    
 deso:
 	Inherits: ^Infantry
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -252,7 +260,9 @@ deso:
 		Prerequisites: barracks.infiltrated
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	Repairable:
+    	RepairActors:
+    
 ivan:
 	Inherits: ^Infantry
 	Inherits@MC: ^MindControllable
@@ -301,7 +311,9 @@ ivan:
 		IdleSequences: idle1,idle2
 	QuantizeFacingsFromSequence:
 		Sequence: stand
-
+	Repairable:
+    	RepairActors:
+    
 civan:
 	Inherits: ivan
 	Buildable:
@@ -400,7 +412,9 @@ yuri:
 	AutoTargetPriority@DEFAULT:
 		ValidTargets: MindControl
 		RequiresCondition: !controlling
-
+	Repairable:
+    	RepairActors:
+    
 yuripr:
 	Inherits: yuri
 	Buildable:
@@ -426,3 +440,5 @@ yuripr:
 		Range: 8c0
 	Armament:
 		Weapon: SuperMindControl
+	Repairable:
+    	RepairActors:

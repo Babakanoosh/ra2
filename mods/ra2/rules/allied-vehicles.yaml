@@ -39,7 +39,8 @@ amcv:
 	Voiced:
 		VoiceSet: AlliedConstructionVehicleVoice
 	HitShape:
-
+	-Repairable:
+    
 cmin:
 	Inherits: ^Vehicle
 	Buildable:
@@ -87,7 +88,8 @@ cmin:
 	Voiced:
 		VoiceSet: ChronoMinerVoice
 	HitShape:
-
+	-Repairable:
+    
 mtnk:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -136,7 +138,8 @@ mtnk:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	-Repairable:
+    
 tnkd:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -182,7 +185,8 @@ tnkd:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	-Repairable:
+    
 fv:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
@@ -324,7 +328,8 @@ fv:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	-Repairable:
+    
 sref:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -376,7 +381,8 @@ sref:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
-
+	-Repairable:
+    
 mgtk:
 	Inherits: ^Vehicle
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -425,3 +431,5 @@ mgtk:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 	HitShape:
+	-Repairable:
+    

@@ -39,7 +39,8 @@ lcrf:
 	Voiced:
 		VoiceSet: AlliedNavalVoice
 	HitShape:
-
+	-Repairable:
+    
 dest:
 	Inherits: ^Ship
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
@@ -88,7 +89,8 @@ dest:
 	Voiced:
 		VoiceSet: AlliedNavalVoice
 	HitShape:
-
+	-Repairable:
+    
 aegis:
 	Inherits: ^Ship
 	Inherits@AUTOTARGET: ^AutoTargetAir
@@ -126,7 +128,8 @@ aegis:
 	Voiced:
 		VoiceSet: AlliedNavalVoice
 	HitShape:
-
+	-Repairable:
+    
 dlph:
 	Inherits@1: ^ExistsInWorld
 	Inherits@2: ^SpriteActor
@@ -205,3 +208,5 @@ dlph:
 	HitShape:
 	OwnerLostAction:
 		Action: Kill
+	-Repairable:
+    

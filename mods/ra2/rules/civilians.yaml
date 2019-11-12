@@ -2,77 +2,103 @@ civ1:
 	Inherits: ^CivilianInfantry
 	Voiced:
 		VoiceSet: CivilianAlliedFemaleVoice
-
+	Repairable:
+    	RepairActors:
+    
 civ2:
 	Inherits: ^CivilianInfantry
-
+	Repairable:
+    	RepairActors:
+    
 civ3:
 	Inherits: ^CivilianInfantry
-
+	Repairable:
+    	RepairActors:
+    
 civa:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Texan
 	Voiced:
 		VoiceSet: CivilianTexanVoice
-
+	Repairable:
+    	RepairActors:
+    
 civb:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Texan
 	Voiced:
 		VoiceSet: CivilianTexanVoice
-
+	Repairable:
+    	RepairActors:
+    
 civc:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Texan
 	Voiced:
 		VoiceSet: CivilianTexanVoice
-
+	Repairable:
+    	RepairActors:
+    
 civbbp:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Baseball Player
-
+	Repairable:
+    	RepairActors:
+    
 civbfm:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Beach Fat Male
-
+	Repairable:
+    	RepairActors:
+    
 civbf:
 	Inherits: ^CivilianInfantry
 	Voiced:
 		VoiceSet: CivilianAlliedFemaleVoice
 	Tooltip:
 		Name: Beach Fat Female
-
+	Repairable:
+    	RepairActors:
+    
 civbtm:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Beach Thin Male
-
+	Repairable:
+    	RepairActors:
+    
 civsfm:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Snow Fat Male
 	Voiced:
 		VoiceSet: CivilianSovietMaleVoice
-
+	Repairable:
+    	RepairActors:
+    
 civsf:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Snow Fat Male
 	Voiced:
 		VoiceSet: CivilianSovietFemaleVoice
-
+	Repairable:
+    	RepairActors:
+    
 civstm:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: Snow Thin Male
 	Voiced:
 		VoiceSet: CivilianSovietMaleVoice
-
+	Repairable:
+    	RepairActors:
+    
 vladimir:
 	Inherits: ^CivilianInfantry
 	Tooltip:
@@ -80,7 +106,9 @@ vladimir:
 		GenericVisibility: None
 	WithInfantryBody:
 		IdleSequences: idle1, idle2
-
+	Repairable:
+    	RepairActors:
+    
 pentgen:
 	Inherits: ^CivilianInfantry
 	Tooltip:
@@ -88,7 +116,9 @@ pentgen:
 		GenericVisibility: None
 	Voiced:
 		VoiceSet: GIVoice
-
+	Repairable:
+    	RepairActors:
+    
 ssrv:
 	Inherits: ^CivilianInfantry
 	Tooltip:
@@ -96,9 +126,14 @@ ssrv:
 		GenericVisibility: None
 	Voiced:
 		VoiceSet: SecretServiceVoice
-
+	Repairable:
+    	RepairActors:
+    
 pres:
 	Inherits: ^CivilianInfantry
 	Tooltip:
 		Name: President
 		GenericVisibility: None
+	Repairable:
+    	RepairActors:
+    
