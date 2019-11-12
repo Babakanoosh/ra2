@@ -72,7 +72,7 @@ Player:
 	HarvesterAttackNotifier:
 		Notification: OreMinerUnderAttack
 	PlayerStatistics:
-	PlaceSimpleBeacon:
+	PlaceBeacon:
 		IsPlayerPalette: true
 		Palette: player
 	ProvidesTechPrerequisite@infonly:
